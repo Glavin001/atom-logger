@@ -1,0 +1,10 @@
+--name       "Atom Logger"
+--readme     README.md
+--title      "Atom Logger Documentation"
+--private
+--quiet
+--output-dir ./doc
+./lib
+-
+LICENSE
+CHANGELOG.md

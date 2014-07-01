@@ -1,0 +1,37 @@
+{
+  "name": "atom-logger",
+  "version": "0.0.0",
+  "main": "lib/atom-logger.coffee",
+  "description": "Reusable logging library for Atom packages.",
+  "homepage": "https://github.com/Glavin001/atom-logger",
+  "bugs": "https://github.com/Glavin001/atom-logger/issues",
+  "author": {
+    "name": "Glavin Wiechert",
+    "email": "glavin.wiechert@gmail.com",
+    "url": "https://github.com/Glavin001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glavin001/atom-logger"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-release": "^0.7.0",
+    "grunt-conventional-changelog": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "temp": "^0.8.0",
+    "winston": "^0.7.3"
+  }
+}
