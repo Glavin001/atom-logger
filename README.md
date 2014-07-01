@@ -51,7 +51,7 @@ Use [Grunt-Conventional-Changelog](https://github.com/btford/grunt-conventional-
 
 ## Release History
 
-See [CHANGELOG.md](CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/Glavin001/atom-logger/blob/master/CHANGELOG.md).
 
 ## License
 
