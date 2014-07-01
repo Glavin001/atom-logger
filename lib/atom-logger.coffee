@@ -61,14 +61,16 @@ class Logger
       return "#{@namespace}.#{@name}_#{key}"
 
     # Set Config
-    @config.set(keyPath('filePath'), @logFilePath)
+    @config.set keyPath('filePath'), @logFilePath
 
     # Reset the Logger File Path if it is set.
     # It is effectively READ-Only
     @_observeConfig(@config, keyPath('filePath'), {},
     (newValue, previousValue) =>
-      if newValue is not @logfilePath
-        @config.set keyPath('filePath')
+      # console.log "filePath changed:", newValue
+      if newValue isnt @logFilePath
+        # console.log newValue," is not ",@logFilePath
+        @config.set keyPath('filePath'), @logFilePath
       )
 
   # Observe the Atom Package's configuration
