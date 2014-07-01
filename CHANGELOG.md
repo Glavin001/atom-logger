@@ -2,6 +2,10 @@
 ## 0.1.0 (2014-07-01)
 
 
+#### Bug Fixes
+
+* **travis-ci:** remove Node.js 0.8.x from Travis CI. ([7adb4c8b](https://github.com/Glavin001/atom-logger/commit/7adb4c8bcde504757c58fe693647d85a7099f979))
+
 <a name="0.0.0"></a>
 ## 0.0.0 (2014-07-01)
 

@@ -45,9 +45,11 @@ biscotto
 
 ## Contributing
 
-Use [Biscotto's documentation notation](https://github.com/atom/biscotto) for documentation.  
-Use [CoffeeLint](http://www.coffeelint.org/) for CofffeeScript source code linting.  
-Use [Grunt-Conventional-Changelog](https://github.com/btford/grunt-conventional-changelog) for commit message conventions.  
+- Use [CoffeeScript](https://github.com/caolan/nodeunit) with
+[CoffeeLint](http://www.coffeelint.org/) for CoffeeScript source code linting.  
+- Use [NodeUnit](https://github.com/caolan/nodeunit) for Unit Testing library.  
+- Use [Biscotto's documentation notation](https://github.com/atom/biscotto) for documentation.  
+- Use [Grunt-Conventional-Changelog](https://github.com/btford/grunt-conventional-changelog) for commit message conventions.  
 
 ## Release History
 
